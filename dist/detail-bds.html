@@ -1,0 +1,1282 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" href="favicon.ico" rel="icon">
+    <link type="image/x-icon" href="favicon.ico" rel="shortcut icon">
+
+    <!-- <link rel="stylesheet" href="css/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- MDB -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.js"></script> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css"
+        integrity="sha512-UTNP5BXLIptsaj5WdKFrkFov94lDx+eBvbKyoe1YAfjeRPC+gT5kyZ10kOHCfNZqEui1sxmqvodNUx3KbuYI/A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/all.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+        integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+        integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>CHI TIẾT BĐS</title>
+</head>
+
+<body>
+
+    <!-- LAYOUT HEADER -->
+
+<nav class="navbar sticky-top navbar-expand-lg bg-light" style="box-shadow: 1px 1px 3px 0px #c1c1c1;">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <!-- <img src="https://placehold.co/160x48/f44336/31343C?text=LOGO" alt="" class="img-fluid"> -->
+            <!-- <img src="images/logo.png" alt="" class="img-fluid"> -->
+            <img src="images/logo-ngang.png" alt="" class="img-fluid">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample"
+            aria-controls="offcanvasExample" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Trang chủ</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">BĐS Đông Anh</a>
+                    <div></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Đấu Giá Đất</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tin Tức</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tài Liệu Luật</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Liên Hệ</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav me-right mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i class="fa-regular fa-heart"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Đăng nhập</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Đăng ký</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Offcanvas</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div>
+            Some text as placeholder. In real life you can have the elements you have chosen. Like, text, images, lists,
+            etc.
+        </div>
+        <div class="dropdown mt-3">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+    <div class="container">
+        <!-- FILTER MOBILE-->
+<div id="mobile-filter" class="d-lg-none" style="width: 100%; display: flex; justify-content: center;">
+    <div class="input-group mb-3 ps-3 pe-3">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username"
+            aria-describedby="basic-addon2">
+        <span class="input-group-text bg-red text-light bg-danger" id="basic-addon2">
+            <i class="fas fa-search"></i>
+        </span>
+    </div>
+</div>
+
+<!-- SLIDE + FILTER PC -->
+
+<!-- box filter pc -->
+<div id="pc-filter" class="py-3">
+    <div id="tab-filter" class="w-100">
+        <div class="rounded-top px-3 py-1 ư" style="background-color: #f2f2f2; width: fit-content;">
+            Nhà đất bán
+        </div>
+        <div id="body-filter" class="p-3 rounded-bottom rounded-end"
+            style="width:100%; background-color: #f2f2f2; height: auto; box-shadow: 5px 5px 5px #bdbdbd;">
+            <div class="input-group mb-3">
+                <button class="btn btn-outline-light dropdown-toggle bg-light text-dark p-3"
+                    style="border-right: 1px solid #eeeeee; background-color: #fff !important;" type="button"
+                    data-bs-toggle="dropdown" aria-expanded="false"> <i class="fas fa-home"></i> Nhà đất
+                    bán</button>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+                <input type="text" class="form-control border-0" aria-label="Text input with dropdown button">
+                <button class="btn btn-danger" type="button"><i class="fas fa-search"></i> Tìm kiếm</button>
+            </div>
+
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="dropdown mb-md-2">
+                        <button class="btn dropdown-toggle w-100 border border-muted" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Xã phương thị trấn
+                        </button>
+                        <div class="dropdown-menu w-100 bg-transparent border-0 p-0 m-0">
+                            <div class="px-2 py-3 bg-light shadow rounded border border-light" style="min-width: 400px;">
+                                <!-- <label for="exampleDataList" class="form-label">Xã phường thị trấn</label> -->
+                                <input class="form-control" list="datalistOptions" id="exampleDataList"
+                                    placeholder="Tìm xã phường thị trấn.">
+                                <datalist id="datalistOptions">
+                                    <option value="San Francisco">
+                                    <option value="New York">
+                                    <option value="Seattle">
+                                    <option value="Los Angeles">
+                                    <option value="Chicago">
+                                </datalist>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div>
+                                        <i class="fa-solid fa-rotate text-dark"></i> Đặt lại
+                                    </div>
+                                    <button class="btn btn-danger btn-sm">Áp dụng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="dropdown mb-md-2">
+                        <button class="btn dropdown-toggle w-100 border border-muted" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Mức giá
+                        </button>
+                        <div class="dropdown-menu w-100 bg-transparent border-0 p-0 m-0">
+                            <div class="px-2 py-3 bg-light shadow rounded border border-light" style="min-width: 400px;">
+                                <div class="d-flex align-items-center justify-content-between gap-3">
+                                    <input type="text" class="w-50 form-control" value="0">
+                                    <div>đến</div>
+                                    <input type="text" class="w-50 form-control" value="2000">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between gap-3">
+                                    <input type="range" class="form-range" min="0" max="50000" step="500"
+                                        id="customRange3" value="0">
+                                    <div> - </div>
+                                    <input type="range" class="form-range" min="0" max="50000" step="500"
+                                        id="customRange3" value="2000">
+                                </div>
+                                <!--  -->
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="firstRadio" checked>
+                                        <label class="form-check-label" for="firstRadio">Tất cả mức giá</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="secondRadio">
+                                        <label class="form-check-label" for="secondRadio">Dưới 500 triệu</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="thirdRadio">
+                                        <label class="form-check-label" for="thirdRadio">500 - 800 triệu</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="fourRadio">
+                                        <label class="form-check-label" for="fourRadio">800 triệu - 1 tỷ
+                                            triệu</label>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div>
+                                        <i class="fa-solid fa-rotate text-dark"></i> Đặt lại
+                                    </div>
+                                    <button class="btn btn-danger btn-sm">Áp dụng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="dropdown mb-md-2">
+                        <button class="btn dropdown-toggle w-100 border border-muted" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Diện tích
+                        </button>
+                        <div class="dropdown-menu w-100 bg-transparent border-0 p-0 m-0">
+                            <div class="px-2 py-3 bg-light shadow rounded border border-light" style="min-width: 400px;">
+                                <div class="d-flex align-items-center justify-content-between gap-3">
+                                    <input type="text" class="w-50 form-control" value="0">
+                                    <div>đến</div>
+                                    <input type="text" class="w-50 form-control" value="50">
+                                </div>
+                                <div class="d-flex align-items-center justify-content-between gap-3">
+                                    <input type="range" class="form-range" min="0" max="500" step="5" id="customRange3"
+                                        value="0">
+                                    <div> - </div>
+                                    <input type="range" class="form-range" min="0" max="500" step="5" id="customRange3"
+                                        value="500">
+                                </div>
+                                <!--  -->
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="firstRadio" checked>
+                                        <label class="form-check-label" for="firstRadio">Tất cả diện tích</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="secondRadio">
+                                        <label class="form-check-label" for="secondRadio">30 - 50 m²</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="thirdRadio">
+                                        <label class="form-check-label" for="thirdRadio">50 - 80 m²</label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input class="form-check-input me-1" type="radio" name="listGroupRadio" value=""
+                                            id="thirdRadio">
+                                        <label class="form-check-label" for="thirdRadio">80 - 100 m²</label>
+                                    </li>
+                                </ul>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div>
+                                        <i class="fa-solid fa-rotate text-dark"></i> Đặt lại
+                                    </div>
+                                    <button class="btn btn-danger btn-sm">Áp dụng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                    <div class="dropdown w-100 mb-md-2 d-flex align-items-center gap-2">
+                        <button class="btn dropdown-toggle w-100 border border-muted" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Lọc thêm
+                        </button>
+                        <div>
+                            <i class="fa-solid fa-rotate"></i>
+                        </div>
+                        <style>
+                            #filter_loc_them {
+                                inset: 0px auto auto -125px !important;
+                            }
+                        </style>
+                        <div id="filter_loc_them" class="dropdown-menu w-100 bg-transparent border-0 p-0 m-0">
+                            <div class="px-2 py-3 bg-light shadow rounded" style="min-width: 400px;">
+                                Hướng nhà
+                                <div>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Đông</span>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Tây</span>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Nam</span>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Bắc</span>
+                                    <br>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Đông - Bắc</span>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Tây - Bắc</span>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Tây - Nam</span>
+                                    <span class="badge rounded-pill text-bg-secondary fw-light">Đông - Nam</span>
+                                </div>
+
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div>
+                                        <i class="fa-solid fa-rotate text-dark"></i> Đặt lại
+                                    </div>
+                                    <button class="btn btn-danger btn-sm">Áp dụng</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-9">
+                <div id="slide-image">
+    <div class="slideshow-container">
+
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">1 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 1</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">2 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 2</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">3 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 3</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">4 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 4</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">5 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 5</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">6 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 6</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">7 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 7</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">8 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 8</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">9 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 9</div>
+            </div>
+        
+            <div class="mySlides fadeSlideImage">
+                <div class="numbertext">10 / 10</div>
+                <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg"
+                    style="width:100%;aspect-ratio: 16/9; object-fit: cover;">
+                <div class="text">Caption Text 10</div>
+            </div>
+        
+        <div class="prev" onclick="plusSlides(-1)">❮</div>
+        <div class="next" onclick="plusSlides(1)">❯</div>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <div id="owl-image-thumb" class="owl-carousel">
+            
+                <div class="slide-image-dot" onclick="currentSlide(1)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(2)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(3)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(4)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(5)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(6)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(7)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(8)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(9)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+                <div class="slide-image-dot" onclick="currentSlide(10)">
+                    <img src="https://file4.batdongsan.com.vn/crop/846x423/2023/01/11/20230111142929-553b_wm.jpg">
+                </div>
+            
+        </div>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#owl-image-thumb").owlCarousel({
+            dots: false,
+            autoWidth: true,
+            nav:false,
+            autoplay: false,
+            margin: 10,
+        });
+    });
+</script>
+
+<style>
+    #slide-image * {
+        box-sizing: border-box
+    }
+
+    #slide-image {
+        font-family: Verdana, sans-serif;
+        margin: 0
+    }
+
+    #slide-image .mySlides {
+        display: none
+    }
+
+    #slide-image img {
+        vertical-align: middle;
+    }
+
+    /* Slideshow container */
+    #slide-image .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+    }
+
+    /* Next & previous buttons */
+    #slide-image .prev,
+    #slide-image .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+
+    /* Position the "next button" to the right */
+    #slide-image .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* On hover, add a black background color with a little bit see-through */
+    #slide-image .prev:hover,
+    #slide-image .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    /* Caption text */
+    #slide-image .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    #slide-image .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    #slide-image .dot {
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    #slide-image .slide-image-dot {
+        border: 1px solid transparent;
+    }
+    #slide-image .slide-image-dot img {
+        width: 5rem;
+        aspect-ratio: 4/3;
+        object-fit: cover;
+        cursor: pointer;
+        border-radius: 3px;
+    }
+
+    #slide-image .slideractive{
+        border: 1px solid red;
+    }
+
+    /* Fading animation */
+    #slide-image .fadeSlideImage {
+        animation-name: fadeSlideImage;
+        animation-duration: 1.5s;
+    }
+
+    @keyframes fadeSlideImage {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+
+        #slide-image .prev,
+        #slide-image .next,
+        #slide-image .text {
+            font-size: 11px
+        }
+    }
+</style>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+        showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("slide-image-dot");
+        if (n > slides.length) { slideIndex = 1 }
+        if (n < 1) { slideIndex = slides.length }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" slideractive", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " slideractive";
+    }
+</script>
+                <nav aria-label="breadcrumb" class="mt-3">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#" class="text-secondary">Home</a></li>
+        <li class="breadcrumb-item"><a href="#" class="text-secondary">Tất cả BĐS</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Chi tiết bđs</li>
+    </ol>
+</nav>
+
+<h1 class="fw-bold fs-4">
+    Chỉ từ 6.9 tỷ - Sở hữu ngay mảnh đất cực đẹp tại thị trấn Đông Anh. LH: 0969 640 ***
+</h1>
+
+<p>
+    Dự án Centa City, Đường Hữu Nghị, Xã Phù Chẩn, Từ Sơn, Bắc Ninh
+</p>
+<div class="d-flex justify-content-between align-items-center border-bottom border-top py-3">
+    <div class="d-flex align-items-center">
+        <div class="me-3 me-md-5">
+            <div class="text-muted">Mức giá</div>
+            <div class="fw-bold fs-5">6.9 tỷ</div>
+            <div class="text-muted">~51.11 triệu/m²</div>
+        </div>
+        <div>
+            <div class="text-muted">Diện tích</div>
+            <div class="fw-bold fs-5">135 m²</div>
+            <div class="text-muted">Mặt tiền 9 m
+            </div>
+        </div>
+    </div>
+    <div>
+        <i class="fa-solid fa-share-nodes me-1 me-md-3 fs-4"></i>
+        <i class="fa-solid fa-triangle-exclamation me-1 me-md-3 fs-4"></i>
+        <i class="fa-regular fa-heart me-1 me-md-3 fs-4"></i>
+    </div>
+</div>
+
+<!-- Thông tin mô tả -->
+<div class="mt-3">
+    <div class="fw-semibold fs-5">Thông tin mô tả</div>
+    <div class="mt-3">
+        Cơ hội vàng để sở hữu nhà biệt thự sân vườn trong khu đô thị xanh chuẩn Singapore tại cửa ngõ Từ Sơn, cách trung
+        tâm Nhà hát lớn Hà Nội chỉ 20 phút chạy xe. Nút giao 3 cao tốc lớn: Hà Nội - Bắc Giang; Hà Nội - Thái Nguyên; Hà
+        Nội - Hải Phòng.<br><br>Khoản sân vườn rộng, không gian sống Xanh, hòa mình vào thiên nhiên trong lành với bờ
+        sông Tào Khê thơ mộng, công viên hồ điều hòa xanh mát. Với thiết kế thông minh, tối ưu không gian sống nhưng
+        không kém phần sang trọng, đẳng cấp. Biệt thự sân vườn Centa Villas Garden đang là lựa chọn hàng đầu của cư dân
+        Thủ đô.<br>- Diện tích 135 - 162m. Mặt tiền 9m, dài 15 - 18m.<br>- Xây dựng 3 tầng diện tích sử dụng lớn
+        207m.<br>- Nhà 3 mặt thoáng với khoảng sân vườn lớn.<br>- Mặt tiền đường nội khu rộng 13.5m.<br>- Pháp lý chuẩn
+        chỉnh: Sổ hồng lâu dài.<br>- Ngân hàng hỗ trợ vay vốn 20 năm với ưu đãi cực kỳ tốt.<br><br>Đặc biệt giá bán tốt
+        nhất khu vực - chỉ từ: 6.9 tỷ vnđ.<br>Đơn giá chỉ 40tr/m² - đang là dòng sản phẩm giá tốt toàn Vùng thủ
+        đô.<br><br>Liên hệ ngay hotline chủ đầu tư để được tư vấn và báo giá trực tiếp từ Chủ đầu tư dự án.<br>
+    </div>
+    <div class="mt-3">
+        <button class="btn btn-sm text-light me-2" style="background-color: rgb(7 152 83);"><i
+                class="fa-solid fa-phone-volume"></i> 0936 030 966 · Sao chép</button>
+        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+    </div>
+</div>
+
+<!-- Đặc điểm bất động sản -->
+<div class="mt-5">
+    <div class="fw-semibold fs-5">Đặc điểm bất động sản</div>
+    <div class="row mt-3">
+        <div class="col-12 col-lg-6">
+            <div class="border-top d-flex py-2">
+                <div class="fw-semibold w-50">Diện tích</div>
+                <div>135 m²</div>
+            </div>
+            <div class="border-top d-flex py-2">
+                <div class="fw-semibold w-50">Mặt tiền</div>
+                <div>9 m</div>
+            </div>
+            <div class="border-top d-flex py-2">
+                <div class="fw-semibold w-50">Hướng nhà</div>
+                <div>Nam</div>
+            </div>
+            <div class="border-top border-bottom d-flex py-2">
+                <div class="fw-semibold w-50">Số tầng</div>
+                <div>3 tầng</div>
+            </div>
+        </div>
+        <div class="col-12 col-lg-6">
+            <div class="border-top d-flex py-2">
+                <div class="fw-semibold w-50">Mức giá</div>
+                <div>6.9 tỷ</div>
+            </div>
+            <div class="border-top d-flex py-2">
+                <div class="fw-semibold w-50">Đường vào</div>
+                <div>12 m</div>
+            </div>
+            <div class="border-top d-flex py-2">
+                <div class="fw-semibold w-50">Hướng ban công</div>
+                <div>Nam</div>
+            </div>
+            <div class="border-top border-bottom d-flex py-2">
+                <div class="fw-semibold w-50">Pháp lý</div>
+                <div>Sổ đỏ/ Sổ hồng</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Xem trên bản đồ -->
+<div class="mt-5">
+    <div class="fw-semibold fs-5 mb-3">Xem trên bản đồ</div>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29768.399307331674!2d105.82663157403829!3d21.150411828692523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135011877263c29%3A0xfed63a1860e09572!2zdHQuIMSQw7RuZyBBbmgsIMSQw7RuZyBBbmgsIEjDoCBO4buZaSwgVmnhu4d0IE5hbQ!5e0!3m2!1svi!2s!4v1682774449970!5m2!1svi!2s" style="width: 100%; height: 240px; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<!-- Từ khóa liên quan -->
+<div class="mt-5">
+    <div class="fw-semibold fs-5 mb-3">Từ khóa liên quan</div>
+    <div class="mt-3">
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+            <div class="badge rounded-pill text-bg-secondary p-2 mb-2">Thị trấn đông anh</div>
+        
+    </div>
+</div>
+
+<div class="d-flex justify-content-between align-items-center border-bottom border-top py-2 mt-5">
+    <div class="d-flex align-items-center" style="gap:50px">
+        <div>
+            <div class="text-muted">Ngày đăng</div>
+            <div class="fw-semibold">26/04/2023</div>
+        </div>
+        <div>
+            <div class="text-muted">Ngày hết hạn</div>
+            <div class="fw-semibold">03/05/2023</div>
+        </div>
+        <div>
+            <div class="text-muted">Loại tin</div>
+            <div class="fw-semibold">Tin VIP</div>
+        </div>
+        <div>
+            <div class="text-muted">Mã tin</div>
+            <div class="fw-semibold">123456</div>
+        </div>
+    </div>
+</div>
+
+<!-- Bất động sản dành cho bạn -->
+<div class="mt-5">
+    <div class="fw-bold fs-5">Bất động sản dành cho bạn</div>
+
+    <div id="owl-noi-bat" class="owl-carousel owl-theme mt-3">
+        
+            <div class="rounded border border-1 border-muted">
+                <img src="https://file4.batdongsan.com.vn/crop/393x222/2023/04/03/20230403115307-5831_wm.jpg"
+                    class="rounded-top img-fluid w-100" alt="">
+                <div class="p-3">
+                    <p class="fw-semibold text-truncate text-wrap"
+                        style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                        Chính chủ cho thuê văn phòng 100m2 mặt tiền đường Tôn Thất Đạm, quận 1, sát bên Hàm
+                        Nghi</p>
+                    <div class="d-flex gap-2">
+                        <div class="text-danger fw-bold">33 triệu/tháng</div>
+                        <div class="mb-1">.</div>
+                        <div class="text-danger  fw-bold">100 m²</div>
+                    </div>
+                    <div class="text-secondary mt-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thị trấn Đông Anh
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="text-secondary" style="font-size: 0.8rem;">Đăng hôm nay</span>
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="rounded border border-1 border-muted">
+                <img src="https://file4.batdongsan.com.vn/crop/393x222/2023/04/03/20230403115307-5831_wm.jpg"
+                    class="rounded-top img-fluid w-100" alt="">
+                <div class="p-3">
+                    <p class="fw-semibold text-truncate text-wrap"
+                        style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                        Chính chủ cho thuê văn phòng 100m2 mặt tiền đường Tôn Thất Đạm, quận 1, sát bên Hàm
+                        Nghi</p>
+                    <div class="d-flex gap-2">
+                        <div class="text-danger fw-bold">33 triệu/tháng</div>
+                        <div class="mb-1">.</div>
+                        <div class="text-danger  fw-bold">100 m²</div>
+                    </div>
+                    <div class="text-secondary mt-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thị trấn Đông Anh
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="text-secondary" style="font-size: 0.8rem;">Đăng hôm nay</span>
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="rounded border border-1 border-muted">
+                <img src="https://file4.batdongsan.com.vn/crop/393x222/2023/04/03/20230403115307-5831_wm.jpg"
+                    class="rounded-top img-fluid w-100" alt="">
+                <div class="p-3">
+                    <p class="fw-semibold text-truncate text-wrap"
+                        style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                        Chính chủ cho thuê văn phòng 100m2 mặt tiền đường Tôn Thất Đạm, quận 1, sát bên Hàm
+                        Nghi</p>
+                    <div class="d-flex gap-2">
+                        <div class="text-danger fw-bold">33 triệu/tháng</div>
+                        <div class="mb-1">.</div>
+                        <div class="text-danger  fw-bold">100 m²</div>
+                    </div>
+                    <div class="text-secondary mt-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thị trấn Đông Anh
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="text-secondary" style="font-size: 0.8rem;">Đăng hôm nay</span>
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="rounded border border-1 border-muted">
+                <img src="https://file4.batdongsan.com.vn/crop/393x222/2023/04/03/20230403115307-5831_wm.jpg"
+                    class="rounded-top img-fluid w-100" alt="">
+                <div class="p-3">
+                    <p class="fw-semibold text-truncate text-wrap"
+                        style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                        Chính chủ cho thuê văn phòng 100m2 mặt tiền đường Tôn Thất Đạm, quận 1, sát bên Hàm
+                        Nghi</p>
+                    <div class="d-flex gap-2">
+                        <div class="text-danger fw-bold">33 triệu/tháng</div>
+                        <div class="mb-1">.</div>
+                        <div class="text-danger  fw-bold">100 m²</div>
+                    </div>
+                    <div class="text-secondary mt-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thị trấn Đông Anh
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="text-secondary" style="font-size: 0.8rem;">Đăng hôm nay</span>
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="rounded border border-1 border-muted">
+                <img src="https://file4.batdongsan.com.vn/crop/393x222/2023/04/03/20230403115307-5831_wm.jpg"
+                    class="rounded-top img-fluid w-100" alt="">
+                <div class="p-3">
+                    <p class="fw-semibold text-truncate text-wrap"
+                        style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                        Chính chủ cho thuê văn phòng 100m2 mặt tiền đường Tôn Thất Đạm, quận 1, sát bên Hàm
+                        Nghi</p>
+                    <div class="d-flex gap-2">
+                        <div class="text-danger fw-bold">33 triệu/tháng</div>
+                        <div class="mb-1">.</div>
+                        <div class="text-danger  fw-bold">100 m²</div>
+                    </div>
+                    <div class="text-secondary mt-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thị trấn Đông Anh
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="text-secondary" style="font-size: 0.8rem;">Đăng hôm nay</span>
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    
+    <script>
+        $(document).ready(function () {
+            $("#owl-noi-bat").owlCarousel({
+                autoplay:true,
+                autoplayTimeout:4000,
+                autoplayHoverPause:true,
+                margin: 10,
+                responsiveClass: true,
+                nav:false,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    992: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+</div>
+
+<!-- Tin đăng đã xem -->
+<div class="mt-5">
+    <div class="fw-bold fs-5">Tin đăng đã xem</div>
+
+    <div id="owl-bds-da-xem" class="owl-carousel owl-theme mt-3">
+        
+            <div class="rounded border border-1 border-muted">
+                <img src="https://file4.batdongsan.com.vn/crop/393x222/2023/04/03/20230403115307-5831_wm.jpg"
+                    class="rounded-top img-fluid w-100" alt="">
+                <div class="p-3">
+                    <p class="fw-semibold text-truncate text-wrap"
+                        style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                        Chính chủ cho thuê văn phòng 100m2 mặt tiền đường Tôn Thất Đạm, quận 1, sát bên Hàm
+                        Nghi</p>
+                    <div class="d-flex gap-2">
+                        <div class="text-danger fw-bold">33 triệu/tháng</div>
+                        <div class="mb-1">.</div>
+                        <div class="text-danger  fw-bold">100 m²</div>
+                    </div>
+                    <div class="text-secondary mt-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thị trấn Đông Anh
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="text-secondary" style="font-size: 0.8rem;">Đăng hôm nay</span>
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="rounded border border-1 border-muted">
+                <img src="https://file4.batdongsan.com.vn/crop/393x222/2023/04/03/20230403115307-5831_wm.jpg"
+                    class="rounded-top img-fluid w-100" alt="">
+                <div class="p-3">
+                    <p class="fw-semibold text-truncate text-wrap"
+                        style="display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                        Chính chủ cho thuê văn phòng 100m2 mặt tiền đường Tôn Thất Đạm, quận 1, sát bên Hàm
+                        Nghi</p>
+                    <div class="d-flex gap-2">
+                        <div class="text-danger fw-bold">33 triệu/tháng</div>
+                        <div class="mb-1">.</div>
+                        <div class="text-danger  fw-bold">100 m²</div>
+                    </div>
+                    <div class="text-secondary mt-2">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Thị trấn Đông Anh
+                    </div>
+                    <div class="d-flex justify-content-between mt-2">
+                        <span class="text-secondary" style="font-size: 0.8rem;">Đăng hôm nay</span>
+                        <button class="btn btn-sm btn-outline-secondary"><i class="fa-regular fa-heart"></i></button>
+                    </div>
+                </div>
+            </div>
+        
+    </div>
+    
+    <script>
+        $(document).ready(function () {
+            $("#owl-bds-da-xem").owlCarousel({
+                autoplay:true,
+                autoplayTimeout:4000,
+                autoplayHoverPause:true,
+                margin: 10,
+                responsiveClass: true,
+                nav:false,
+                dots: false,
+                responsive: {
+                    0: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    992: {
+                        items: 3
+                    }
+                }
+            });
+        });
+    </script>
+</div>
+
+<!--  -->
+<hr class="text-muted mt-5">
+<div class="mt-2">
+    Quý vị đang xem nội dung tin rao "<strong style="font-weight: bold">Chỉ từ 6.9 tỷ - Sở hữu ngay mảnh đất cực đẹp tại thị trấn Đông Anh. LH: 0969 640 ***</strong> - <strong style="font-weight: bold">Mã tin 123456</strong>.
+    Mọi thông tin, nội dung liên quan tới tin rao này là do người đăng tin đăng tải và chịu trách nhiệm.
+    Batdongsan.com.vn luôn cố gắng để các thông tin được hữu ích nhất cho quý vị tuy nhiên Batdongsan.com.vn không đảm bảo và không chịu trách nhiệm về bất kỳ thông tin, nội dung nào liên quan tới tin rao này.
+    Trường hợp phát hiện nội dung tin đăng không chính xác, Quý vị hãy thông báo và cung cấp thông tin cho Ban quản trị Batdongsan.com.vn theo <strong style="font-weight: bold">Hotline 19001881</strong> để được hỗ trợ nhanh và kịp thời nhất.
+</div>
+
+
+            </div>
+            <div class="col-lg-3">
+                <div class="card">
+    <div class="card-body d-flex flex-column align-items-center">
+        <img src="https://file4.batdongsan.com.vn/resize/200x200/2023/03/31/20230331171327-a131.jpg" class="rounded-circle w-25" alt="">
+        <div class="text-muted mt-2" style="font-size: 0.875rem;">Được đăng bởi</div>
+        <div class="fw-semibold fs-5 text-truncate">Bds Việt Nhân Bắc Ninh</div>
+        <div class="">Xem thêm 26 tin khác</div>
+
+        <button class="btn text-light mt-2 w-100" style="background-color: rgb(7 152 83);"><i class="fa-solid fa-phone-volume"></i> 0936 030 966 · Sao chép</button>
+
+        <button class="btn btn-outline-secondary mt-2 w-100">Gửi email</button>
+
+        <button class="btn btn-outline-secondary mt-2 w-100">Yêu cầu liên hệ lại</button>
+
+    </div>
+</div>
+
+<div class="card mt-3" style="background-color: #F2F2F2;">
+    <div class="card-body">
+        <p class="fw-semibold" style="font-size: 1.125rem;">Bất động sản cùng khu vực</p>
+        <div class="d-flex flex-column">
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+             
+                <a class="text-decoration-none text-dark py-1">Bán đất tại Thị trấn Đông Anh</a>
+            
+        </div>
+    </div>
+</div>
+
+<div class="card mt-3" style="background-color: #F2F2F2;">
+    <div class="card-body">
+        <p class="fw-semibold" style="font-size: 1.125rem;">Bất động sản nổi bật</p>
+        <div class="d-flex flex-column">
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+             <a class="text-decoration-none text-dark py-1">
+                Đường Bắc Thăng Long (1000)</a>
+            
+        </div>
+    </div>
+</div>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- Banner đăng ký -->
+<div class="container my-5">
+    <img src="https://tpc.googlesyndication.com/simgad/16381994165507055885" class="w-100 img-fluid">
+</div>
+
+<!-- FOOTER -->
+<div class="contaier-fluid" style="background: #f2f2f2;">
+    <div class="container py-5">
+        <p>
+            <a class="fw-bold fs-6 text-dark text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
+                role="button" aria-expanded="false" aria-controls="collapseExample">
+                Bất động sản Phường/Xã thuộc Huyện Đông Anh, Hà Nội
+            </a>
+        </p>
+        <div class="collapse show" id="collapseExample">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Bần Yên Nhân</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Thị trấn Đông Anh</div>
+            </div>
+        </div>
+
+        <p class="mt-5">
+            <a class="fw-bold fs-6 text-dark text-decoration-none" data-bs-toggle="collapse" href="#collapseExample"
+                role="button" aria-expanded="false" aria-controls="collapseExample">
+                Bất động sản trên đường phố Huyện Đông Anh, Hà Nội
+            </a>
+        </p>
+        <div class="collapse show" id="collapseExample">
+            <div class="row">
+                <div class="col-6 col-md-4 col-lg-3">Đường Bắc Thăng Long Hải Bối</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường khu công nghiệp thăng long</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+                <div class="col-6 col-md-4 col-lg-3">Đường abc xyz Đông Anh</div>
+            </div>
+        </div>
+        <hr class="mt-5">
+        <div class="row">
+            <div class="col-md-6 col-lg-4 mt-5">
+                <h5>VĂN PHÒNG MÔI GIỚI NHÀ ĐẤT ĐÔNG ANH</h5>
+                <div class="w-100 mt-3">
+
+                    <div class="mt-2">
+                        <i class="fa-solid fa-phone-volume"></i>
+                        105 An Khánh, Hoài Đức, Hà Nội
+                    </div>
+                    <div class="mt-2">
+                        <i class="fa-solid fa-mobile-retro"></i>
+                        <a href="tel:0388303529" class="text-decoration-none text-dark">0388303529</a>
+                    </div>
+
+                    <div class="mt-2">
+                        <i class="fa-solid fa-envelope-circle-check"></i>
+                        <a href="mailto:abc@gmail.com" class="text-decoration-none text-dark">abc@gmail.com</a>
+                    </div>
+
+                    <hr>
+                    <div class="mt-2">
+                        Chịu trách nhiệm nội dung ông Nguyễn Văn A <br>
+                        Email: nguyenvana@gmail.com <br>
+                        Phone: 0987654321
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 mt-5">
+                <h5>VỀ CHÚNG TÔI</h5>
+                <div class="mt-3">
+                    <div class="w-100"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Trang chủ</a></div>
+                    <div class="w-100 mt-2"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Bất động sản Đông Anh</a>
+                    </div>
+                    <div class="w-100 mt-2"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Đấu giá đất</a>
+                    </div>
+                    <div class="w-100 mt-2"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Tin tức bất động sản</a></div>
+                    <div class="w-100 mt-2"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Luật đất đai</a>
+                    </div>
+                    <div class="w-100 mt-2"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Liên hệ</a></div>
+                    <div class="w-100 mt-2"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Đăng ký</a></div>
+                    <div class="w-100 mt-2"><a href="http://" class="text-decoration-none text-dark"><i
+                                class="fa-solid fa-angle-right"></i> Đăng nhập</a></div>
+                </div>
+            </div>
+
+            <div class="col-md-12 col-lg-5 mt-5">
+                <h5>ĐĂNG KÝ NHẬN TIN TƯ VẤN</h5>
+                <div class="w-100 mt-3">
+                    <input type="text" class="form-control w-100" placeholder="Họ và tên">
+                    <div class="hstack gap-3 mt-2">
+                        <input type="text" class="form-control" placeholder="Số điện thoại">
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <textarea name="" id="" cols="30" rows="5" class="form-control mt-2"
+                        placeholder="Nhập nội dung cần tư vấn"></textarea>
+
+                    <button class="btn btn-danger mt-3">Gửi yêu cầu</button>
+                </div>
+            </div>
+        </div>
+        <hr class="mt-5">
+        <p class="text-center">Copyright 2023 © www.abc.vn | Bất Động Sản Đông Anh</p>
+    </div>
+</div>
+
+</body>
+
+</html>

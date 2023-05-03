@@ -1,2 +1,32 @@
 @import "variables";
 @import "mixins";
+
+// FILTER
+#pc-filter {
+    @include media-breakpoint-up(lg){
+        & {
+            width: 100%;
+            display: flex;
+            justify-content: center
+        }
+    }
+
+    @include media-breakpoint-down(lg){
+        & {
+           display: none;
+        }
+    }
+}
+#body-filter {
+    @include media-breakpoint-up(lg){
+        & {
+            min-width: 956px;
+        }
+    }
+
+    @include media-breakpoint-down(lg){
+        & {
+            min-width: 100%;
+        }
+    }
+}
